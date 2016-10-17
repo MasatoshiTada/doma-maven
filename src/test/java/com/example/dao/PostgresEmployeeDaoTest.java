@@ -15,7 +15,6 @@ import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 
 /**
- * 3件の一括追加がRedになります。
  * 実行する際は、pom.xmlにPostgreSQLのJDBCドライバを追加し、
  * MySQLのJDBCドライバを除外してください。
  * @author tada
@@ -45,7 +44,7 @@ public class PostgresEmployeeDaoTest {
     }
     
     /**
-     * このテストが失敗する
+     * このテストが失敗する→成功した！
      */
     @Test
     public void 社員を3件一括追加できる() {
